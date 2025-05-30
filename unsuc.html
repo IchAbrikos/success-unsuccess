@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Оплата не удалась</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .crossmark {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px auto;
+    }
+
+    .crossmark circle {
+      fill: #f44336;
+    }
+
+    .crossmark path {
+      fill: none;
+      stroke: white;
+      stroke-width: 5;
+      stroke-linecap: round;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="crossmark" viewBox="0 0 52 52">
+      <circle cx="26" cy="26" r="25"/>
+      <path d="M18 18 L34 34"/>
+      <path d="M34 18 L18 34"/>
+    </svg>
+    <h1>Оплата не удалась</h1>
+  </div>
+</body>
+</html>
